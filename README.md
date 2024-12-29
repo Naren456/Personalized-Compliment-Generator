@@ -1,6 +1,6 @@
 
 
-# Emotion Detector with Compliment Generator
+# Personalized Compliment Generator
 
 ![Emotion Detector Banner](https://www.retorio.com/hubfs/Retorio%20What%20is%20the%20difference%20between%20facial%20expression%20detection%20and%20recognition_.webp)  
 *Detect and generate compliments based on facial emotions.*
