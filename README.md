@@ -2,7 +2,7 @@
 
 # Emotion Detector with Compliment Generator
 
-![Emotion Detector Banner](https://via.placeholder.com/1200x400.png?text=Emotion+Detector+with+Compliment+Generator)  
+![Emotion Detector Banner](https://www.retorio.com/hubfs/Retorio%20What%20is%20the%20difference%20between%20facial%20expression%20detection%20and%20recognition_.webp)  
 *Detect and generate compliments based on facial emotions.*
 
 This project uses OpenCV for facial detection, the FER (Facial Emotion Recognition) library for emotion recognition, and a custom text-to-speech (TTS) system to provide compliments based on detected facial expressions. It aims to detect emotions from an image or video, generate a related compliment, and speak the compliment aloud using a TTS engine.
