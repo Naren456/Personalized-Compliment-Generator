@@ -88,8 +88,7 @@ To ensure that the project dependencies do not interfere with other Python proje
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/yourusername/emotion-compliment-generator.git
-    cd emotion-compliment-generator
+    git clone https://github.com/Naren456/Personalized-Compliment-Generator.git
     ```
 
 2. **Create and Activate a Virtual Environment**:
