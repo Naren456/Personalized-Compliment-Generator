@@ -156,8 +156,8 @@ class Compliment:
 
 
 
-#Emotion_Detector().detect_emotion_in_video('/home/narendra/Documents/Python/myenv/Smart-Mirro/assets/video/video.mp4')
-#Emotion_Detector().detect_emotion_in_video('/home/narendra/Documents/Python/myenv/Smart-Mirro/assets/video/video2.mp4')
+#Emotion_Detector().detect_emotion_in_video('Python/myenv/Smart-Mirro/assets/video/video.mp4')
+#Emotion_Detector().detect_emotion_in_video('Python/myenv/Smart-Mirro/assets/video/video2.mp4')
 #Facial_Emotion_Detector().detect_face_in_image('Mywork/h.jpg')
 #Facial_Emotion_Detector().detect_face_in_image('Mywork/img.jpg')
 #Emotion_Detector().detect_emotion_in_video()
