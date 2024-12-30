@@ -128,7 +128,9 @@ To ensure that the project dependencies do not interfere with other Python proje
 
 To get a better understanding of how the Emotion Detector with Compliment Generator works, you can watch the demo video below:
 
-[Emotion Detector Demo](https://youtu.be/e9rwDUICb0E)
+
+[![Demo](https://img.youtube.com/vi/e9rwDUICb0E/0.jpg)](https://youtu.be/e9rwDUICb0E)
+
 
 In this demo, you will see how the program detects emotions from a live video feed and generates compliments based on the detected emotions.
 
