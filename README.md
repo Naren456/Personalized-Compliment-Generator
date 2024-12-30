@@ -126,7 +126,7 @@ To ensure that the project dependencies do not interfere with other Python proje
 
 ## Demo Video
 
-To get a better understanding of how the Emotion Detector with Compliment Generator works, you can watch the demo video below:
+To get a better understanding of  Compliment Generator works, you can watch the demo video below:
 
 
 [![Demo](https://img.youtube.com/vi/e9rwDUICb0E/0.jpg)](https://youtu.be/e9rwDUICb0E)
