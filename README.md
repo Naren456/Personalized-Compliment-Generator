@@ -1,5 +1,4 @@
 
-
 # Personalized Compliment Generator
 
 ![Emotion Detector Banner](https://www.retorio.com/hubfs/Retorio%20What%20is%20the%20difference%20between%20facial%20expression%20detection%20and%20recognition_.webp)  
@@ -52,7 +51,7 @@ To ensure that the project dependencies do not interfere with other Python proje
     - On **Windows**:
 
     ```bash
-    .\venv\Scripts\activate
+    .\\venv\\Scripts\\activate
     ```
 
     - On **macOS/Linux**:
@@ -157,18 +156,33 @@ In this demo, you will see how the program detects emotions from a live video fe
 
 ## Example Compliments
 
-- **Happy**: "You're doing great! Keep smiling!"
-- **Sad**: "It's okay to feel down sometimes, but you'll get through this."
-- **Angry**: "Take a deep breath, you're stronger than you think."
-- **Surprised**: "Wow! That was unexpected, but you're handling it well!"
-- **Neutral**: "You're calm and collected, stay positive!"
-- **Fear**: "You're brave for facing your fears, keep going!"
+- **Happy**: \"You're doing great! Keep smiling!\"
+- **Sad**: \"It's okay to feel down sometimes, but you'll get through this.\"
+- **Angry**: \"Take a deep breath, you're stronger than you think.\"
+- **Surprised**: \"Wow! That was unexpected, but you're handling it well!\"
+- **Neutral**: \"You're calm and collected, stay positive!\"
+- **Fear**: \"You're brave for facing your fears, keep going!\"
 
+## Challenges Faced
+
+### Problem with `pyttsx3`:
+Initially, the program experienced freezing frames when speaking compliments. This occurred because the `pyttsx3` library ran on the main thread, blocking other processes like video frame updates.
+
+### Solution: Using Threading
+To fix this, threading was implemented to run the text-to-speech (TTS) functionality in a separate thread. This ensured smooth and uninterrupted video processing while compliments were spoken.
+
+### Why Threading Was Used:
+- Prevented the main thread from being blocked.
+- Maintained real-time performance and interaction.
+- Allowed for a seamless user experience.
+
+### How Threading Helped:
+- TTS ran independently of the video processing.
+- Improved performance and responsiveness of the application.
+- Enabled scalability for future enhancements.
 
 ## Acknowledgments
 
 - [OpenCV](https://opencv.org/) for face detection.
 - [FER](https://github.com/priya-dwivedi/fer) for emotion recognition.
-- [pyttsx3](https://pypi.org/project/pyttsx3/) for text-to-speech functionality.
-
----
+- [pyttsx3](https://pypi.org/project/pyttsx3/) for text-to-speech functionality.""
